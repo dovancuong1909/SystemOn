@@ -1,133 +1,133 @@
-# AIS-OS — AI Operating System starter kit for Claude Code
+# AIS-OS — Bộ khởi tạo "Hệ điều hành AI" (AI Operating System) cho Claude Code
 
-A free, MIT-licensed starter kit that turns Claude Code into your personal **AI Operating System (AIOS)**. Audience: anyone building automations — solopreneurs, small business operators, managers, creators, AI consultants. Pairs with a companion masterclass video.
+Một bộ khởi tạo miễn phí, theo giấy phép MIT, biến Claude Code thành **Hệ điều hành AI cá nhân (AIOS)** của riêng bạn. Đối tượng sử dụng: bất kỳ ai đang xây dựng tự động hoá — người làm kinh doanh một mình (solopreneur), chủ doanh nghiệp nhỏ, quản lý, nhà sáng tạo nội dung, chuyên gia tư vấn AI. Đi kèm với một video masterclass hướng dẫn.
 
-The kit personalizes itself to you via an `/onboard` interview, then gives you two recurring thinking skills (`/audit`, `/level-up`) to keep building leverage week over week.
+Bộ kit tự "cá nhân hoá" theo bạn qua một buổi phỏng vấn `/khoi-dong`, sau đó trao cho bạn hai kỹ năng tư duy lặp lại định kỳ (`/danh-gia`, `/nang-cap`) để liên tục gia tăng lợi thế (leverage) theo từng tuần.
 
-> **AIS-OS** stands for **AI Automation Society OS** — the way Nate designed this AIOS to be set up for members of his community, [AI Automation Society](https://www.skool.com/ai-automation-society). The kit is universal (it works for anyone), but the structure mirrors how AIS members run their own businesses on top of it.
-
----
-
-## The litmus test
-
-> **"While you're not at your desk, your AIS-OS observes one real-world event and produces an output that's faster and more accurate than what you'd produce yourself."**
-
-Every design decision in this kit rolls up to that test. If a layer, skill, or template doesn't contribute to it, it doesn't ship.
+> **AIS-OS** là viết tắt của **AI Automation Society OS** — cách Nate thiết kế AIOS này để các thành viên trong cộng đồng của anh, [AI Automation Society](https://www.skool.com/ai-automation-society), thiết lập cho riêng mình. Bộ kit mang tính phổ quát (ai dùng cũng được), nhưng cấu trúc của nó phản chiếu cách các thành viên AIS vận hành doanh nghiệp của họ trên nền tảng này.
 
 ---
 
-## How you'll know it's working
+## Bài kiểm tra "phép thử quỳ tím" (litmus test)
 
-Three felt **success indicators** tell you the AIOS is actually changing how you work. Not KPIs — there's no objective metric. These are lived experiences that show up in your week.
+> **"Trong lúc bạn không ngồi ở bàn làm việc, AIS-OS của bạn quan sát một sự kiện thực tế nào đó và tạo ra một kết quả nhanh hơn và chính xác hơn so với việc bạn tự làm."**
 
-**1. Team-reaches-out:**
-
-> *"A teammate messages you with a question. You realize your AIOS would answer it better, faster, and with exact sources — even if you were awake and free. So you ask your AIOS too. That's the moment you stop being a bottleneck for your own knowledge."*
-
-**2. Context-switching reduction:**
-
-> *"You stop opening new tabs. You stop launching the desktop app. When something new lands, your first move is to ask the AIOS, not to open six things. The default surface for thought work shifts. Silent. Compounding."*
-
-**3. Knowledge-leaves-your-head:**
-
-> *"You stop trying to remember business facts. You don't rehearse what you decided last quarter or what your customer said in that meeting. You trust the retrieval. The AIOS holds the truth, you hold the questions."*
-
-**Personal foundation → company AI-readiness.** Once these indicators show up for one person, the same data architecture powers everything else. Custom dashboards on the data you already collect. Automations on top of the connections you already wired. Team rollout where everyone has theirs. *A company where every operator runs a personal AIOS is a company that's actually AI-ready.*
-
-The kit teaches personal AIOS first. Everything scales from there.
+Mọi quyết định thiết kế trong bộ kit này đều phải quy về bài kiểm tra đó. Nếu một tầng (layer), một kỹ năng (skill), hay một mẫu (template) nào không góp phần vào điều này, nó sẽ không được đưa vào sản phẩm.
 
 ---
 
-## Two frameworks
+## Làm sao biết hệ thống đang vận hành tốt
 
-The kit teaches two complementary frameworks. **Three Ms first, Four Cs second.** Without the brain rewire, the architecture is just a folder structure.
+Ba **dấu hiệu thành công** (cảm nhận được, không phải số liệu) cho bạn biết AIOS thực sự đang thay đổi cách bạn làm việc. Đây không phải là KPI — không có thước đo khách quan nào cho chúng. Đây là những trải nghiệm thực tế sẽ xuất hiện trong tuần làm việc của bạn.
 
-### The Three Ms — operator brain (how you think)
+**1. Đồng nghiệp tự tìm đến AIOS của bạn:**
 
-| M | One-liner |
+> *"Một đồng nghiệp nhắn tin hỏi bạn một câu hỏi. Bạn nhận ra AIOS của bạn sẽ trả lời tốt hơn, nhanh hơn, và có nguồn trích dẫn chính xác hơn — ngay cả khi bạn đang thức và rảnh rỗi. Vậy nên bạn cũng hỏi AIOS của mình. Đó là thời điểm bạn không còn là điểm nghẽn (bottleneck) cho kiến thức của chính mình nữa."*
+
+**2. Giảm tình trạng chuyển đổi ngữ cảnh (context-switching):**
+
+> *"Bạn không còn mở thêm tab mới. Bạn không còn mở ứng dụng desktop. Khi có việc mới phát sinh, phản xạ đầu tiên của bạn là hỏi AIOS, không phải mở sáu thứ khác nhau. Bề mặt mặc định cho công việc trí óc đã thay đổi. Âm thầm. Và tích lũy dần theo thời gian."*
+
+**3. Kiến thức không còn nằm trong đầu bạn:**
+
+> *"Bạn không còn cố nhớ các thông tin kinh doanh. Bạn không cần ôn lại bạn đã quyết định gì quý trước, hay khách hàng đã nói gì trong buổi họp đó. Bạn tin tưởng vào khả năng truy xuất thông tin. AIOS giữ sự thật, bạn giữ câu hỏi."*
+
+**Nền tảng cá nhân → sự sẵn sàng AI của cả công ty.** Khi những dấu hiệu này xuất hiện ở một người, chính kiến trúc dữ liệu đó sẽ vận hành mọi thứ khác. Các bảng điều khiển (dashboard) tuỳ chỉnh trên dữ liệu bạn đã thu thập sẵn. Các tự động hoá trên nền các kết nối bạn đã thiết lập sẵn. Triển khai cho cả nhóm, mỗi người có một AIOS riêng. *Một công ty mà mỗi người vận hành đều có AIOS cá nhân là một công ty thực sự "sẵn sàng cho AI".*
+
+Bộ kit này dạy AIOS cá nhân trước. Mọi thứ khác sẽ mở rộng dần từ đó.
+
+---
+
+## Hai khung tư duy (frameworks)
+
+Bộ kit dạy hai khung tư duy bổ trợ cho nhau. **Ba chữ M (Three Ms) trước, Bốn chữ C (Four Cs) sau.** Không có sự "lập trình lại bộ não" này, kiến trúc chỉ là một cấu trúc thư mục vô hồn.
+
+### Ba chữ M — bộ não của người vận hành (cách bạn suy nghĩ)
+
+| Chữ M | Tóm tắt một câu |
 |---|---|
-| **Mindset** | Default Shift, Function Breakdown, Curiosity Rule. *To what extent can AI be leveraged here?* |
-| **Method** | Find Constraint → EAD (Eliminate, Automate, Delegate) → Map Process → Pick Autonomy Level → Tie to KPI. |
-| **Machine** | Lego Principle, Validation Chain, Bike Method, Intern Rule, Kill Switch. *Boring is beautiful. Workflows beat agents.* |
+| **Mindset** (Tư duy) | Default Shift (Chuyển đổi mặc định), Function Breakdown (Phân rã chức năng), Curiosity Rule (Quy tắc tò mò). *AI có thể được tận dụng đến mức nào ở đây?* |
+| **Method** (Phương pháp) | Tìm Nút thắt cổ chai → EAD (Eliminate - Loại bỏ, Automate - Tự động hoá, Delegate - Giao việc) → Sơ đồ hoá Quy trình → Chọn Mức độ Tự chủ → Gắn với KPI. |
+| **Machine** (Cỗ máy) | Lego Principle (Nguyên tắc Lego), Validation Chain (Chuỗi kiểm chứng), Bike Method (Phương pháp xe đạp), Intern Rule (Quy tắc thực tập sinh), Kill Switch (Nút tắt khẩn cấp). *Nhàm chán mới là đẹp. Quy trình (workflow) thắng tác tử (agent).* |
 
-Full breakdown in `references/3ms-framework.md`. The `/level-up` skill walks you through all three weekly.
+Bản phân tích đầy đủ nằm ở `references/3ms-framework.md`. Kỹ năng `/nang-cap` sẽ dẫn bạn đi qua cả ba phần này mỗi tuần.
 
-> *The Three Ms of AI™ is a trademark of Nate Herk. © 2026 Nate Herk.*
+> *The Three Ms of AI™ là thương hiệu đã đăng ký của Nate Herk. © 2026 Nate Herk.*
 
-### The Four Cs — architecture (what you build)
+### Bốn chữ C — kiến trúc (những gì bạn xây dựng)
 
-| # | Layer | One-liner | "This layer is in place" test |
+| # | Tầng | Tóm tắt một câu | Bài kiểm tra "tầng này đã sẵn sàng" |
 |---|---|---|---|
-| 1 | **Context** | Knows your business | Fresh Claude session answers "what does this business do and who works here?" without browsing |
-| 2 | **Connections** | Reaches your stuff | "What's on my calendar tomorrow and what tasks are due?" → live data, no paste |
-| 3 | **Capabilities** | Knows how to do the work | A short phrase triggers a multi-step workflow that produces an artifact |
-| 4 | **Cadence** | Runs without being asked | Laptop closed. A brief lands in the inbox. A teammate messages it and gets a real answer |
+| 1 | **Context** (Bối cảnh) | Hiểu doanh nghiệp của bạn | Một phiên Claude mới có thể trả lời "doanh nghiệp này làm gì và ai đang làm việc ở đây?" mà không cần tìm kiếm thêm |
+| 2 | **Connections** (Kết nối) | Truy cập được dữ liệu của bạn | "Ngày mai tôi có gì trên lịch và việc gì sắp đến hạn?" → dữ liệu thật, không cần dán (paste) thủ công |
+| 3 | **Capabilities** (Năng lực) | Biết cách thực hiện công việc | Một cụm từ ngắn kích hoạt một quy trình nhiều bước để tạo ra một sản phẩm cụ thể (artifact) |
+| 4 | **Cadence** (Nhịp độ tự vận hành) | Tự chạy mà không cần được yêu cầu | Laptop đã gập lại. Một bản tóm tắt vẫn xuất hiện trong hộp thư. Một đồng nghiệp nhắn hỏi và nhận được câu trả lời thật |
 
-**Brand line:** Context. Connections. Capabilities. Cadence.
+**Câu định vị thương hiệu:** Context. Connections. Capabilities. Cadence.
 
-> *The Four Cs of an AIOS™ is a trademark of Nate Herk. © 2026 Nate Herk.*
+> *The Four Cs of an AIOS™ là thương hiệu đã đăng ký của Nate Herk. © 2026 Nate Herk.*
 
-Dependency graph: Context is non-skippable. Connections + Capabilities can build in parallel. Cadence is last — don't automate workflows that don't work manually.
+Sơ đồ phụ thuộc: Context là bước không thể bỏ qua. Connections và Capabilities có thể xây song song. Cadence làm sau cùng — đừng tự động hoá những quy trình mà bạn chưa từng làm thành công bằng tay.
 
 ---
 
-## What ships — 3 skills
+## Những gì có sẵn — 3 kỹ năng (skills)
 
-The kit is intentionally lean. Skills here are ideation prompts and thinking tools, not heavy automations. You hack on top of the structure.
+Bộ kit chủ đích tinh gọn. Các kỹ năng ở đây là những gợi ý tư duy và công cụ suy nghĩ, không phải là các tự động hoá nặng nề. Bạn sẽ tự xây thêm trên nền cấu trúc này.
 
-| Skill | Type | When to run |
+| Kỹ năng | Loại | Khi nào nên chạy |
 |---|---|---|
-| `/onboard` | Setup wizard (one-time) | Day 1, immediately after clone. 7-question interview. Generates Day-1 file set + fills `CLAUDE.md`. |
-| `/audit` | Recurring thinking skill | Day 7, then weekly. Four-Cs gap report. Read-only. Watch the score climb. |
-| `/level-up` | Recurring thinking skill | Day 14, then weekly. Three Ms interview (Mindset → Method → Machine). One run = one shipped artifact. |
+| `/khoi-dong` | Trình thiết lập (chạy một lần) | Ngày 1, ngay sau khi clone repo. Phỏng vấn 7 câu hỏi. Tạo bộ file Ngày-1 + điền vào `CLAUDE.md`. |
+| `/danh-gia` | Kỹ năng tư duy lặp lại | Ngày 7, sau đó hàng tuần. Báo cáo các điểm thiếu sót theo Bốn chữ C. Chỉ đọc, không sửa file. Theo dõi điểm số tăng dần. |
+| `/nang-cap` | Kỹ năng tư duy lặp lại | Ngày 14, sau đó hàng tuần. Phỏng vấn theo Ba chữ M (Mindset → Method → Machine). Một lần chạy = một sản phẩm được hoàn thành. |
 
-`/audit` asks *"is the AIOS built right?"* (form). `/level-up` asks *"what business leverage am I missing?"* (function). They work in series — fix structure first, then capability planning becomes meaningful.
-
----
-
-## Quick start
-
-1. **Clone the repo** to a working folder on your machine.
-2. **Open it in Claude Code** and run `/onboard`. Answer the 7 questions honestly. Voice samples must be pasted, not described. Takes ~15 minutes. Day-1 file set drops at the end.
-3. **Use it for a week.** Bring real questions. Make real decisions. Log them via `/decision` (or just append to `decisions/log.md`).
-4. **Day 7:** run `/audit`. Read the Four-Cs gap report. Pick one gap to close.
-5. **Day 14:** run `/level-up`. The Three Ms interview surfaces one automation worth building. Build it.
-6. **Week 3+:** weekly `/level-up` ritual. One shipped artifact per week.
+`/danh-gia` hỏi *"AIOS đã được xây đúng cách chưa?"* (về hình thức/cấu trúc). `/nang-cap` hỏi *"tôi đang thiếu lợi thế kinh doanh gì?"* (về chức năng). Chúng hoạt động nối tiếp nhau — sửa cấu trúc trước, rồi việc lập kế hoạch năng lực mới thực sự có ý nghĩa.
 
 ---
 
-## Repo layout
+## Bắt đầu nhanh
+
+1. **Clone repo** về một thư mục làm việc trên máy của bạn.
+2. **Mở nó trong Claude Code** và chạy `/khoi-dong`. Trả lời 7 câu hỏi một cách thật lòng. Các mẫu văn phong (voice samples) phải được dán (paste) trực tiếp, không được kể lại bằng lời. Mất khoảng ~15 phút. Bộ file Ngày-1 sẽ được tạo ra ở cuối quá trình.
+3. **Sử dụng nó trong một tuần.** Mang những câu hỏi thật vào. Ra những quyết định thật. Ghi lại qua `/decision` (hoặc chỉ cần thêm vào cuối file `quyet-dinh/nhat-ky.md`).
+4. **Ngày 7:** chạy `/danh-gia`. Đọc báo cáo thiếu sót theo Bốn chữ C. Chọn một điểm thiếu để khắc phục.
+5. **Ngày 14:** chạy `/nang-cap`. Buổi phỏng vấn Ba chữ M sẽ làm lộ ra một việc tự động hoá đáng để xây dựng. Hãy xây nó.
+6. **Tuần 3 trở đi:** nghi thức `/nang-cap` hàng tuần. Mỗi tuần hoàn thành một sản phẩm.
+
+---
+
+## Cấu trúc repo
 
 ```
 AIS-OS/
 ├── README.md
-├── CLAUDE.md                        ← Your operating manual (filled by /onboard)
-├── EXPANSIONS.md                    ← What to add as you grow
+├── CLAUDE.md                        ← Cẩm nang vận hành của bạn (được /khoi-dong điền vào)
+├── mo-rong.md                    ← Những gì nên thêm khi bạn phát triển hơn
 ├── LICENSE
 ├── .gitignore
-├── aios-intake.md                   ← Source-of-truth for /onboard. Edit + re-run any time.
-├── connections.md                   ← Registry of every system your AIOS can reach
-├── context/                         ← About you, your business (filled by /onboard)
+├── phong-van.md                   ← Nguồn dữ liệu gốc cho /khoi-dong. Sửa + chạy lại bất cứ lúc nào.
+├── ket-noi.md                   ← Danh sách mọi hệ thống mà AIOS của bạn có thể truy cập
+├── context/                         ← Thông tin về bạn, doanh nghiệp của bạn (được /khoi-dong điền vào)
 ├── references/
-│   └── 3ms-framework.md             ← The operator brain
-├── decisions/
-│   └── log.md                       ← Append-only record of what was decided and why
-├── archives/                        ← Old stuff. Don't delete. Move here.
+│   └── 3ms-framework.md             ← Bộ não của người vận hành
+├── quyet-dinh/
+│   └── nhat-ky.md                   ← Nhật ký chỉ-thêm-không-xoá ghi lại quyết định gì và vì sao
+├── archives/                        ← Đồ cũ. Không xoá. Chuyển vào đây.
 └── .claude/
     └── skills/
-        ├── onboard/SKILL.md
-        ├── audit/SKILL.md
-        └── level-up/SKILL.md
+        ├── khoi-dong/SKILL.md
+        ├── danh-gia/SKILL.md
+        └── nang-cap/SKILL.md
 ```
 
-See `EXPANSIONS.md` for what to add as you grow (`projects/`, `templates/`, `scripts/`, `.claude/agents/`, sub-OS folders, etc.).
+Xem `mo-rong.md` để biết nên thêm gì khi bạn phát triển lớn hơn (`projects/`, `templates/`, `scripts/`, `.claude/agents/`, các thư mục hệ-điều-hành-con, v.v.).
 
 ---
 
-## License + attribution
+## Giấy phép + ghi nhận tác quyền
 
-MIT License. © 2026 Nate Herk.
+Giấy phép MIT. © 2026 Nate Herk.
 
-The Three Ms of AI™ and The Four Cs of an AIOS™ are trademarks of Nate Herk. Both frameworks ship in this repo with attribution. Use freely; don't repackage as your own.
+The Three Ms of AI™ và The Four Cs of an AIOS™ là thương hiệu đã đăng ký của Nate Herk. Cả hai khung tư duy này được phân phối trong repo này kèm ghi nhận tác quyền. Sử dụng tự do; không đóng gói lại như thể là của riêng bạn.
 
-The companion masterclass video walks you through the kit step by step. Link will land here once it ships.
+Video masterclass đi kèm sẽ hướng dẫn bạn qua bộ kit từng bước. Đường link sẽ được cập nhật ở đây khi video ra mắt.
