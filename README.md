@@ -2,7 +2,7 @@
 
 Một bộ khởi tạo miễn phí, theo giấy phép MIT, biến Claude Code thành **Hệ điều hành AI cá nhân (AIOS)** của riêng bạn. Đối tượng sử dụng: bất kỳ ai đang xây dựng tự động hoá — người làm kinh doanh một mình (solopreneur), chủ doanh nghiệp nhỏ, quản lý, nhà sáng tạo nội dung, chuyên gia tư vấn AI. Đi kèm với một video masterclass hướng dẫn.
 
-Bộ kit tự "cá nhân hoá" theo bạn qua một buổi phỏng vấn `/khoi-dong`, sau đó trao cho bạn hai kỹ năng tư duy lặp lại định kỳ (`/danh-gia`, `/nang-cap`) để liên tục gia tăng lợi thế (leverage) theo từng tuần.
+Bộ kit tự "cá nhân hoá" theo bạn qua một buổi phỏng vấn `/khoi-tao`, sau đó trao cho bạn hai kỹ năng tư duy lặp lại định kỳ (`/danh-gia`, `/nang-cap`) để liên tục gia tăng lợi thế (leverage) theo từng tuần.
 
 > **AIS-OS** là viết tắt của **AI Automation Society OS** — cách Nate thiết kế AIOS này để các thành viên trong cộng đồng của anh, [AI Automation Society](https://www.skool.com/ai-automation-society), thiết lập cho riêng mình. Bộ kit mang tính phổ quát (ai dùng cũng được), nhưng cấu trúc của nó phản chiếu cách các thành viên AIS vận hành doanh nghiệp của họ trên nền tảng này.
 
@@ -77,7 +77,7 @@ Bộ kit chủ đích tinh gọn. Các kỹ năng ở đây là những gợi ý
 
 | Kỹ năng | Loại | Khi nào nên chạy |
 |---|---|---|
-| `/khoi-dong` | Trình thiết lập (chạy một lần) | Ngày 1, ngay sau khi clone repo. Phỏng vấn 7 câu hỏi. Tạo bộ file Ngày-1 + điền vào `CLAUDE.md`. |
+| `/khoi-tao` | Trình thiết lập (chạy một lần) | Ngày 1, ngay sau khi clone repo. Phỏng vấn 7 câu hỏi. Tạo bộ file Ngày-1 + điền vào `CLAUDE.md`. |
 | `/danh-gia` | Kỹ năng tư duy lặp lại | Ngày 7, sau đó hàng tuần. Báo cáo các điểm thiếu sót theo Bốn chữ C. Chỉ đọc, không sửa file. Theo dõi điểm số tăng dần. |
 | `/nang-cap` | Kỹ năng tư duy lặp lại | Ngày 14, sau đó hàng tuần. Phỏng vấn theo Ba chữ M (Mindset → Method → Machine). Một lần chạy = một sản phẩm được hoàn thành. |
 
@@ -88,7 +88,7 @@ Bộ kit chủ đích tinh gọn. Các kỹ năng ở đây là những gợi ý
 ## Bắt đầu nhanh
 
 1. **Clone repo** về một thư mục làm việc trên máy của bạn.
-2. **Mở nó trong Claude Code** và chạy `/khoi-dong`. Trả lời 7 câu hỏi một cách thật lòng. Các mẫu văn phong (voice samples) phải được dán (paste) trực tiếp, không được kể lại bằng lời. Mất khoảng ~15 phút. Bộ file Ngày-1 sẽ được tạo ra ở cuối quá trình.
+2. **Mở nó trong Claude Code** và chạy `/khoi-tao`. Trả lời 7 câu hỏi một cách thật lòng. Các mẫu văn phong (voice samples) phải được dán (paste) trực tiếp, không được kể lại bằng lời. Mất khoảng ~15 phút. Bộ file Ngày-1 sẽ được tạo ra ở cuối quá trình.
 3. **Sử dụng nó trong một tuần.** Mang những câu hỏi thật vào. Ra những quyết định thật. Ghi lại qua `/decision` (hoặc chỉ cần thêm vào cuối file `quyet-dinh/nhat-ky.md`).
 4. **Ngày 7:** chạy `/danh-gia`. Đọc báo cáo thiếu sót theo Bốn chữ C. Chọn một điểm thiếu để khắc phục.
 5. **Ngày 14:** chạy `/nang-cap`. Buổi phỏng vấn Ba chữ M sẽ làm lộ ra một việc tự động hoá đáng để xây dựng. Hãy xây nó.
@@ -101,13 +101,13 @@ Bộ kit chủ đích tinh gọn. Các kỹ năng ở đây là những gợi ý
 ```
 AIS-OS/
 ├── README.md
-├── CLAUDE.md                        ← Cẩm nang vận hành của bạn (được /khoi-dong điền vào)
+├── CLAUDE.md                        ← Cẩm nang vận hành của bạn (được /khoi-tao điền vào)
 ├── mo-rong.md                    ← Những gì nên thêm khi bạn phát triển hơn
 ├── LICENSE
 ├── .gitignore
-├── phong-van.md                   ← Nguồn dữ liệu gốc cho /khoi-dong. Sửa + chạy lại bất cứ lúc nào.
+├── phong-van.md                   ← Nguồn dữ liệu gốc cho /khoi-tao. Sửa + chạy lại bất cứ lúc nào.
 ├── ket-noi.md                   ← Danh sách mọi hệ thống mà AIOS của bạn có thể truy cập
-├── context/                         ← Thông tin về bạn, doanh nghiệp của bạn (được /khoi-dong điền vào)
+├── context/                         ← Thông tin về bạn, doanh nghiệp của bạn (được /khoi-tao điền vào)
 ├── references/
 │   └── 3ms-framework.md             ← Bộ não của người vận hành
 ├── quyet-dinh/
@@ -115,7 +115,7 @@ AIS-OS/
 ├── archives/                        ← Đồ cũ. Không xoá. Chuyển vào đây.
 └── .claude/
     └── skills/
-        ├── khoi-dong/SKILL.md
+        ├── khoi-tao/SKILL.md
         ├── danh-gia/SKILL.md
         └── nang-cap/SKILL.md
 ```

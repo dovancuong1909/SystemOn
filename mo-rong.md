@@ -10,14 +10,14 @@ Cấu trúc AIOS nên trông giống như một doanh nghiệp nhỏ được v�
 
 | Thư mục / file | Mục đích |
 |---|---|
-| `context/` | Thông tin về bạn, doanh nghiệp của bạn, các ưu tiên của bạn. Được `/khoi-dong` điền vào. |
+| `context/` | Thông tin về bạn, doanh nghiệp của bạn, các ưu tiên của bạn. Được `/khoi-tao` điền vào. |
 | `references/` | Các khung tư duy, mẫu văn phong, hướng dẫn API, quy trình chuẩn (SOP) khi bạn xây dựng chúng. |
 | `quyet-dinh/nhat-ky.md` | Nhật ký chỉ-thêm-không-xoá ghi lại quyết định gì và vì sao. |
 | `archives/` | File cũ. Không xoá — chuyển vào đây. |
 | `ket-noi.md` | Danh sách mọi hệ thống mà AIOS của bạn có thể truy cập. |
-| `.claude/skills/` | Các kỹ năng của bạn: `/khoi-dong`, `/danh-gia`, `/nang-cap`. Thêm kỹ năng mới qua `/nang-cap`. |
-| `phong-van.md` | Nguồn dữ liệu gốc cho `/khoi-dong`. Sửa và chạy lại bất cứ lúc nào. |
-| `CLAUDE.md` | Cẩm nang vận hành gốc. Được `/khoi-dong` điền vào. Sửa khi vai trò/văn phong của bạn thay đổi. |
+| `.claude/skills/` | Các kỹ năng của bạn: `/khoi-tao`, `/danh-gia`, `/nang-cap`. Thêm kỹ năng mới qua `/nang-cap`. |
+| `phong-van.md` | Nguồn dữ liệu gốc cho `/khoi-tao`. Sửa và chạy lại bất cứ lúc nào. |
+| `CLAUDE.md` | Cẩm nang vận hành gốc. Được `/khoi-tao` điền vào. Sửa khi vai trò/văn phong của bạn thay đổi. |
 
 ---
 

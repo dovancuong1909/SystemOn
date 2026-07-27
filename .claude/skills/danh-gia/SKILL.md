@@ -93,7 +93,7 @@ Một kết nối được coi là "truy cập được" qua BẤT KỲ cơ ch�
 | Tiêu chí | Điểm | Cách phát hiện |
 |---|---|---|
 | Có từ 3 kỹ năng trở lên | 10 | Đếm `.claude/skills/*/SKILL.md` |
-| Có từ 1 kỹ năng do người dùng tự xây | 10 | Tên kỹ năng không thuộc nhóm: `khoi-dong`, `danh-gia`, `nang-cap`, `skill-creator`, `skill-builder`, `decision`, `connect`, `connect-check`, `memory-prune`, `scaffold-skill`, `scaffold-agent`, `draft`, `standup` (các kỹ năng có sẵn từ AIS-OS + Anthropic) |
+| Có từ 1 kỹ năng do người dùng tự xây | 10 | Tên kỹ năng không thuộc nhóm: `khoi-tao`, `danh-gia`, `nang-cap`, `skill-creator`, `skill-builder`, `decision`, `connect`, `connect-check`, `memory-prune`, `scaffold-skill`, `scaffold-agent`, `draft`, `standup` (các kỹ năng có sẵn từ AIS-OS + Anthropic) |
 | Có ít nhất 1 agent | 5 | Đếm `.claude/agents/*.md` ≥ 1 |
 
 #### Cadence (25 điểm)

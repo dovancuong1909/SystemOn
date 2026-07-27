@@ -1,6 +1,6 @@
 ---
-name: khoi-dong
-description: Dùng vào Ngày 1 khi cài đặt AIS-OS, khi ai đó nói "khởi động giúp tôi", "setup giúp tôi", "onboard tôi", "bắt đầu thôi", "điền vào AIOS của tôi", hoặc vừa mới clone bộ kit này. Một trình thiết lập kết hợp — chạy buổi phỏng vấn 7 câu hỏi VÀ dựng bộ file Ngày-1 ở cuối quá trình. Có thể chạy lại nhiều lần (idempotent) — chạy lại bất cứ lúc nào sau khi sửa phong-van.md.
+name: khoi-tao
+description: Dùng vào Ngày 1 khi cài đặt AIS-OS, khi ai đó nói "khởi tạo giúp tôi", "khởi động giúp tôi", "setup giúp tôi", "onboard tôi", "bắt đầu thôi", "điền vào AIOS của tôi", hoặc vừa mới clone bộ kit này. Một trình thiết lập kết hợp — chạy buổi phỏng vấn 7 câu hỏi VÀ dựng bộ file Ngày-1 ở cuối quá trình. Có thể chạy lại nhiều lần (idempotent) — chạy lại bất cứ lúc nào sau khi sửa phong-van.md.
 ---
 
 ## Kỹ năng này làm gì
@@ -11,8 +11,8 @@ Một trình thiết lập kết hợp duy nhất. Đọc hoặc viết vào `ph
 
 ## Khi nào KHÔNG nên chạy kỹ năng này
 
-- Nếu người dùng đã chạy `/khoi-dong` rồi và muốn làm mới: vẫn chạy, nhưng bỏ qua các câu hỏi đã có câu trả lời (có thể chạy lại nhiều lần).
-- Nếu người dùng muốn thêm một kết nối mới: đó không phải là việc khởi động (`/khoi-dong`) — hãy chỉ họ đến `ket-noi.md` để sửa trực tiếp, hoặc lên kế hoạch chạy Giai đoạn 2 của `/nang-cap`.
+- Nếu người dùng đã chạy `/khoi-tao` rồi và muốn làm mới: vẫn chạy, nhưng bỏ qua các câu hỏi đã có câu trả lời (có thể chạy lại nhiều lần).
+- Nếu người dùng muốn thêm một kết nối mới: đó không phải là việc khởi tạo (`/khoi-tao`) — hãy chỉ họ đến `ket-noi.md` để sửa trực tiếp, hoặc lên kế hoạch chạy Giai đoạn 2 của `/nang-cap`.
 
 ## Thực hiện
 
@@ -98,8 +98,8 @@ Câu hỏi Default Shift này gieo trước khung tư duy Mindset, trước khi 
 
 ## Kiểm chứng (cho người triển khai)
 
-- Kiểm tra "lạnh": clone một bộ kit mới, chạy `/khoi-dong`, điền 7 câu trả lời, dựng file xong, hỏi câu kết thúc, câu trả lời trích dẫn cụ thể từ Câu 1 + Câu 3 + Câu 7. Trả lời chung chung = thất bại.
-- Kiểm tra chạy lại nhiều lần: chạy lại `/khoi-dong` với một ưu tiên ở Câu 3 đã đổi. Kỳ vọng: chỉ `context/priorities.md` và phần ưu tiên trong `CLAUDE.md` được cập nhật; bản sao lưu được tạo ở `archives/intake-{ts}/`.
+- Kiểm tra "lạnh": clone một bộ kit mới, chạy `/khoi-tao`, điền 7 câu trả lời, dựng file xong, hỏi câu kết thúc, câu trả lời trích dẫn cụ thể từ Câu 1 + Câu 3 + Câu 7. Trả lời chung chung = thất bại.
+- Kiểm tra chạy lại nhiều lần: chạy lại `/khoi-tao` với một ưu tiên ở Câu 3 đã đổi. Kỳ vọng: chỉ `context/priorities.md` và phần ưu tiên trong `CLAUDE.md` được cập nhật; bản sao lưu được tạo ở `archives/intake-{ts}/`.
 - Kiểm tra từ chối mẫu gõ giữa chừng: gõ một mẫu giữa cuộc trò chuyện. Kỳ vọng: kỹ năng từ chối, yêu cầu dán lại.
 
 > *Chuyển thể từ The Three Ms of AI™ © 2026 Nate Herk. Ngôn ngữ Mindset dùng ở màn hình kết thúc lấy từ `references/3ms-framework.md`.*

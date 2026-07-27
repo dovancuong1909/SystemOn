@@ -1,8 +1,8 @@
 # AIS-OS — Bảng câu hỏi tiếp nhận thông tin (Intake)
 
-Đây là file nguồn dữ liệu gốc cho AIOS của bạn. Hãy điền vào bằng cách gõ chữ, dán bằng giọng nói (Wispr Flow / chức năng đọc-thành-chữ của hệ điều hành), hoặc chạy `/khoi-dong` để có một buổi trò chuyện hướng dẫn từng bước. Dù bằng cách nào, đây là file mà `/khoi-dong` sẽ đọc để dựng bộ thiết lập Ngày-1 của bạn.
+Đây là file nguồn dữ liệu gốc cho AIOS của bạn. Hãy điền vào bằng cách gõ chữ, dán bằng giọng nói (Wispr Flow / chức năng đọc-thành-chữ của hệ điều hành), hoặc chạy `/khoi-tao` để có một buổi trò chuyện hướng dẫn từng bước. Dù bằng cách nào, đây là file mà `/khoi-tao` sẽ đọc để dựng bộ thiết lập Ngày-1 của bạn.
 
-**Giới hạn cứng: 7 câu hỏi.** Mỗi câu trả lời được trong vòng dưới 60 giây. Đừng suy nghĩ quá nhiều — bạn có thể sửa và chạy lại `/khoi-dong` bất cứ lúc nào.
+**Giới hạn cứng: 7 câu hỏi.** Mỗi câu trả lời được trong vòng dưới 60 giây. Đừng suy nghĩ quá nhiều — bạn có thể sửa và chạy lại `/khoi-tao` bất cứ lúc nào.
 
 ---
 
@@ -82,4 +82,4 @@ Việc tốn thời gian nhất hoặc việc lặp đi lặp lại gây mệt m
 
 ---
 
-Khi file này đã được điền đầy đủ, hãy chạy `/khoi-dong` (hoặc chạy lại) và trình thiết lập sẽ dựng bộ file Ngày-1 cho bạn: `context/`, `references/voice.md`, file `ket-noi.md` đã điền sẵn, và một file `CLAUDE.md` đã hoàn chỉnh.
+Khi file này đã được điền đầy đủ, hãy chạy `/khoi-tao` (hoặc chạy lại) và trình thiết lập sẽ dựng bộ file Ngày-1 cho bạn: `context/`, `references/voice.md`, file `ket-noi.md` đã điền sẵn, và một file `CLAUDE.md` đã hoàn chỉnh.
